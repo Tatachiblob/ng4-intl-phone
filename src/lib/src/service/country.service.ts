@@ -1,5 +1,5 @@
-import {Injectable} from '@angular/core';
-import {Country} from "../interface/country.interface";
+import { Injectable } from '@angular/core';
+import { Country } from "../interface/country.interface";
 
 @Injectable()
 export class CountryService {
@@ -8,6 +8,146 @@ export class CountryService {
 
   constructor() {
     this.countries = [
+      {
+        name: '',
+        dialCode: '44 1534',
+        countryCode: 'je'
+      },
+      {
+        name: '',
+        dialCode: '500',
+        countryCode: 'gs'
+      },
+      {
+        name: '',
+        dialCode: '44 1481',
+        countryCode: 'gg'
+      },
+      {
+        name: '',
+        dialCode: '0',
+        countryCode: 'hm'
+      },
+      {
+        name: '',
+        dialCode: '1 787',
+        countryCode: 'pr'
+      },
+      {
+        name: '',
+        dialCode: '870',
+        countryCode: 'pn'
+      },
+      {
+        name: '',
+        dialCode: '590',
+        countryCode: 'mf'
+      },
+      {
+        name: '',
+        dialCode: '44 1624',
+        countryCode: 'im'
+      },
+      {
+        name: '',
+        dialCode: '61',
+        countryCode: 'cc'
+      },
+      {
+        name: '',
+        dialCode: '1 809',
+        countryCode: 'do'
+      },
+      {
+        name: '',
+        dialCode: '213',
+        countryCode: 'dz'
+      },
+      {
+        name: '',
+        dialCode: '1',
+        countryCode: 'um'
+      },
+      {
+        name: '',
+        dialCode: '262',
+        countryCode: 'tf'
+      },
+      {
+        name: '',
+        dialCode: '379',
+        countryCode: 'va'
+      },
+      {
+        name: '',
+        dialCode: '376',
+        countryCode: 'ad'
+      },
+      {
+        name: '',
+        dialCode: '1 268',
+        countryCode: 'ag'
+      },
+      {
+        name: '',
+        dialCode: '93',
+        countryCode: 'af'
+      },
+      {
+        name: '',
+        dialCode: '1 264',
+        countryCode: 'ai'
+      },
+      {
+        name: '',
+        dialCode: '374',
+        countryCode: 'am'
+      },
+      {
+        name: '',
+        dialCode: '355',
+        countryCode: 'al'
+      },
+      {
+        name: '',
+        dialCode: '244',
+        countryCode: 'ao'
+      },
+      {
+        name: '',
+        dialCode: '672',
+        countryCode: 'aq'
+      },
+      {
+        name: '',
+        dialCode: '1 684',
+        countryCode: 'as'
+      },
+      {
+        name: '',
+        dialCode: '54',
+        countryCode: 'ar'
+      },
+      {
+        name: '',
+        dialCode: '61',
+        countryCode: 'au'
+      },
+      {
+        name: '',
+        dialCode: '43',
+        countryCode: 'at'
+      },
+      {
+        name: '',
+        dialCode: '297',
+        countryCode: 'aw'
+      },
+      {
+        name: '',
+        dialCode: '358 18',
+        countryCode: 'ax'
+      },
       {
         name: '',
         dialCode: '994',
@@ -245,7 +385,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '1',
+        dialCode: '1 809',
         countryCode: 'do'
       },
       {
@@ -380,7 +520,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '44',
+        dialCode: '44 1481',
         countryCode: 'gg'
       },
       {
@@ -450,7 +590,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '44',
+        dialCode: '44 1624',
         countryCode: 'im'
       },
       {
@@ -475,7 +615,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '44',
+        dialCode: '44 1534',
         countryCode: 'je'
       },
       {
@@ -800,7 +940,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '1',
+        dialCode: '1 787',
         countryCode: 'pr'
       },
       {
@@ -1105,7 +1245,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '39',
+        dialCode: '379',
         countryCode: 'va'
       },
       {
@@ -1157,5 +1297,3 @@ export class CountryService {
 
 
 }
-
-
